@@ -1,14 +1,11 @@
 
-import 'dart:math';
 
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/controllers/auth_controller.dart';
 import 'package:emartappyou/views/home_screen/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
-import '../../consts/lists.dart';
 import '../widgets_common/applogo_widget.dart';
 import '../widgets_common/bg_widget.dart';
 import '../widgets_common/custom_textfield.dart';

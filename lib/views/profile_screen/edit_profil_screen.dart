@@ -8,9 +8,7 @@ import 'package:emartappyou/views/widgets_common/custom_textfield.dart';
 import 'package:emartappyou/views/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
-import '../../consts/images.dart';
 
 class EditProfileScreen extends StatelessWidget {
   final dynamic data;

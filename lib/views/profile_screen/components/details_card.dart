@@ -2,7 +2,6 @@
 import 'package:emartappyou/consts/consts.dart';
 import 'package:flutter/material.dart';
 
-import '../../../consts/styles.dart';
 
 Widget detailsCard({width,String? count,String? title}) {
   return Column(

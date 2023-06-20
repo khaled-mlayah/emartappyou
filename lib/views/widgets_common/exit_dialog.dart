@@ -5,8 +5,6 @@ import 'package:emartappyou/views/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../consts/colors.dart';
-import '../../consts/styles.dart';
 
 Widget exitDialog(context){
   return Dialog(

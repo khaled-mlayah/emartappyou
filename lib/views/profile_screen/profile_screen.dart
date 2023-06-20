@@ -1,17 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:emartappyou/consts/consts.dart';
-import 'package:emartappyou/consts/images.dart';
 import 'package:emartappyou/views/chat_screen/messaging_screen.dart';
 import 'package:emartappyou/views/orders_screnn/orders_screnn.dart';
 import 'package:emartappyou/views/wishlist_screen/wishlist_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 
-import '../../consts/colors.dart';
-import '../../consts/firebase_consts.dart';
 import '../../consts/lists.dart';
 import '../../controllers/auth_controller.dart';
 import '../../controllers/profile_controller.dart';

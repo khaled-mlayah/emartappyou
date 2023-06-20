@@ -1,4 +1,3 @@
-import 'package:box/box.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/consts/lists.dart';
@@ -9,8 +8,6 @@ import 'package:emartappyou/views/category_screen/item_details.dart';
 import 'package:emartappyou/views/widgets_common/home_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:loading_indicator/loading_indicator.dart';
-import 'package:snapshot/snapshot.dart';
 
 import '../Product_screen/ProductScannerScreen.dart';
 import 'components/featured_button.dart';
@@ -85,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                             // Add your photo selection functionality here
                             // This function will be triggered when the photo icon is tapped
                           },
-                          icon: Icon(Icons.camera_alt_outlined),
+                          icon: const Icon(Icons.camera_alt_outlined),
                         ),
                       ],
                     ),

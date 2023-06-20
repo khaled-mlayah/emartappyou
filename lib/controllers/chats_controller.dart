@@ -3,8 +3,6 @@ import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/controllers/home.controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 
 class ChatsController extends GetxController {
    // Declare the chats variable

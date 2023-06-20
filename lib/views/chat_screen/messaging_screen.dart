@@ -1,11 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:emartappyou/consts/colors.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/services/firestore_services.dart';
 import 'package:emartappyou/views/chat_screen/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 
 class MessagesScreen extends StatelessWidget {
@@ -42,7 +40,7 @@ class MessagesScreen extends StatelessWidget {
                         return Card(
                           child: ListTile(
                             onTap: (){
-                              Get.to(()=> ChatScreen(),
+                              Get.to(()=> const ChatScreen(),
                               arguments:[
                                  data[index]['friend_name'],
                               data[index]['toId'],

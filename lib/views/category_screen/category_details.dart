@@ -1,12 +1,9 @@
 
 
-import 'package:box/box.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:loading_indicator/loading_indicator.dart';
 
 import '../../controllers/product_controller.dart';
 import '../../services/firestore_services.dart';
@@ -19,7 +16,7 @@ class CategoryDetails extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     Widget loadingIndicator() {
-  return CircularProgressIndicator();
+  return const CircularProgressIndicator();
 }
     var controller =Get.find<ProductController>();
     return bgWidget(

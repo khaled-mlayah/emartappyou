@@ -5,6 +5,7 @@ class SearchScrenn extends StatelessWidget {
   final String? title;
   const SearchScrenn({Key? key,this.title}):super(key: key);
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: whiteColor,

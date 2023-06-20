@@ -5,7 +5,6 @@ import 'package:emartappyou/services/firestore_services.dart';
 import 'package:emartappyou/views/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 
 class CartScreen extends StatelessWidget {

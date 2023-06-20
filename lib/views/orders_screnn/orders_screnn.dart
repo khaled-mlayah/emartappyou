@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:emartappyou/consts/colors.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/services/firestore_services.dart';
 import 'package:flutter/material.dart';

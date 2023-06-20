@@ -12,7 +12,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 
-import 'loginWithFacebook.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key?key}): super(key: key);

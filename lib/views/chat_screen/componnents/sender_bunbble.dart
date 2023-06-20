@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../consts/colors.dart';
@@ -27,7 +26,7 @@ Widget senderBubble(DocumentSnapshot data) {
         children: [
           Text(
             "${data['msg']}",
-            style: TextStyle(color: Colors.white, fontSize: 16),
+            style: const TextStyle(color: Colors.white, fontSize: 16),
           ),
           const SizedBox(height: 10),
            Text(

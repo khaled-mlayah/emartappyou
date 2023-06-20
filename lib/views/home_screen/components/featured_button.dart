@@ -2,7 +2,6 @@ import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/views/category_screen/category_details.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 Widget featuredButton({String? title, icon}) {
   return Row(

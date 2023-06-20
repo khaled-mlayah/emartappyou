@@ -1,11 +1,9 @@
-import 'package:emartappyou/consts/colors.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/views/home_screen/home.dart';
 import 'package:emartappyou/views/widgets_common/applogo_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 import '../auth_screen/login_screen.dart';
 
@@ -40,6 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
     changeScreen();
     super.initState();
   }
+  @override
   Widget build (BuildContext context){
     return Scaffold(
       backgroundColor: redColor,

@@ -2,16 +2,13 @@
 
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/controllers/home.controller.dart';
-import 'package:emartappyou/views/cart_screen/cart_screen.dart';
 import 'package:emartappyou/views/category_screen/category_screen.dart';
-import 'package:emartappyou/views/chat_screen/chat_screen.dart';
 import 'package:emartappyou/views/home_screen/home_screen.dart';
 import 'package:emartappyou/views/profile_screen/profile_screen.dart';
 import 'package:emartappyou/views/widgets_common/exit_dialog.dart';
 import 'package:emartappyou/views/wishlist_screen/wishlist_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class Home extends StatelessWidget {
   const Home({Key?key}):super (key: key);

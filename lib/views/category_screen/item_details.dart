@@ -1,6 +1,3 @@
-import 'package:box/box.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:emartappyou/consts/colors.dart';
 import 'package:emartappyou/consts/consts.dart';
 import 'package:emartappyou/consts/lists.dart';
 import 'package:emartappyou/views/chat_screen/chat_screen.dart';
