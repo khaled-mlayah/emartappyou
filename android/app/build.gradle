@@ -31,7 +31,7 @@ android {
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
     ndkVersion flutter.ndkVersion
-    compileSdkVersion 33
+    compileSdkVersion 30
     buildToolsVersion "17.0.0"
 
     compileOptions {
@@ -58,7 +58,7 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         minSdkVersion 14
-        targetSdkVersion 33
+        targetSdkVersion 30
     }
 
     buildTypes {
