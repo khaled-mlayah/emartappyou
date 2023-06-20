@@ -1,0 +1,84 @@
+{
+    "categories":[
+        {
+            "name":"Informatique",
+            "subcategory":[
+                "Telephone",
+                "Pc",
+                "Watches",
+                "Pc Gamming",
+                "Cartes Méres",
+                "Falshs",
+                "Claviers"
+                
+            ]
+        },
+        {
+            "name":"TV",
+            "subcategory":[
+                "Samsung",
+                "LG",
+            "Condor",
+            "Lcp"
+            ]
+        },
+        {
+            "name":"Computer & Accessories",
+            "subcategory":[
+                "Laptop",
+                "Gaming Pc",
+                "Official Equipement"
+            ]
+        },
+        {
+            "name":"Automobile",
+            "subcategory":[
+                "Cars",
+                "Bikes"
+            ]
+
+        },
+        {
+            "name":"kids & Toys",
+            "subcategory":[
+                "Shoes & Bags",
+                "Baby Clothing",
+                "Girls Toys"
+            ]
+        },
+        {
+            "name":"Sports",
+            "subcategory":[
+                "Cycling",
+                "Sneakers",
+                "Swiming"
+            ]
+        },
+        {
+        "name": "Jewelery",
+        "subcategory": [ 
+            "Necklace",
+            "Gold",
+            "Earing"
+        ]
+    },
+
+        
+        {
+            "name":"Cellphone & Tab ",
+            "subcategory":[
+                "Smartphone",
+                "Tablets",
+                "Accessoires"
+            ]
+        },
+        {
+            "name":"Télephone",
+            "subcategory":[
+                "Samsung",
+                "OPPO",
+                ""
+            ]
+        }
+    ]
+}
